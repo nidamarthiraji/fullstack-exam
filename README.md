@@ -46,6 +46,7 @@ Database: MongoDB with Mongoose ODM
 Authentication: JWT (JSON Web Tokens) with bcrypt
 Styling: Modern CSS3 with Flexbox/Grid
 HTTP Client: Axios for API communication
+
 📁 Project Structure
 LeadMasters-Exam-App/
 ├── backend/
@@ -54,10 +55,10 @@ LeadMasters-Exam-App/
 │   │   ├── Question.js          # Question schema with subjects
 │   │   └── ExamResult.js        # Exam results and history
 │   ├── routes/
-│   │   ├── authRoutes.js              # Authentication endpoints
-│   │   └── examRoutes.js              # Exam and question endpoints
+│   │   ├── auth.js              # Authentication endpoints
+│   │   └── exam.js              # Exam and question endpoints
 │   ├── middleware/
-│   │   └── authMiddleware.js              # JWT verification middleware
+│   │   └── auth.js              # JWT verification middleware
 │   ├── server.js                # Express server setup
 │   ├── seedQuestions.js         # Basic question seeder
 │   ├── seed100Plus.js           # Comprehensive 110+ questions
@@ -78,6 +79,7 @@ LeadMasters-Exam-App/
     │   ├── App.css              # App-specific styles
     │   └── index.css            # Global styles
     └── package.json
+
 🚀 Setup Instructions
 Prerequisites
 Node.js (v16 or higher) - Download here
@@ -325,9 +327,6 @@ Open a Pull Request
 📄 License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-📞 Support
-LeadMasters AI Tech Solutions
 
-📧 Email: support@leadmasters.ai
-🌐 Website: www.leadmasters.ai
-Built with ❤️ for LeadMasters AI Tech Solutions Fresher Assessment Program
+
+
